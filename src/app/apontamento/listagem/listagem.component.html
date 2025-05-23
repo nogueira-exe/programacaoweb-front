@@ -82,7 +82,7 @@
             <p class="mb-1"><strong>Usuário:</strong> {{ apontamento.id_usuario }}</p>
             <p class="mb-1"><strong>Categoria:</strong> {{ apontamento.id_categoria }}</p>
             <p class="mb-1"><strong>Cliente:</strong> {{ apontamento.id_cliente }}</p>
-            <p class="mb-1"><strong>Data:</strong> {{ apontamento.data }}</p>
+            <p class="mb-1"><strong>Data:</strong> {{ apontamento.data | date: 'dd/MM/yyyy'}}</p>
             <p class="mb-1"><strong>Horas:</strong> {{ apontamento.horas }}</p>
             <p class="mb-1"><strong>Projeto:</strong> {{ apontamento.projeto }}</p>
             <p class="mb-1"><strong>Extra:</strong> {{ apontamento.extra }}</p>
